@@ -35,3 +35,5 @@ Atualmente os seguinte endpoints estão disponíveis para consulta:
 * /filter/measurement
   
 Este último permite a passagem de parâmetros de consulta, por exemplo http://localhost:5000/filter/measurement?property=Solidos_suspensos_totais
+
+O _endpoint_ /measurement por sua vez ainda não está completo. Com ele será possível a realização de consultas desmembrando cada propriedade, por exemplo, http://localhost:5000/measurement?locale.lat=27,86
